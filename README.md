@@ -12,7 +12,7 @@ A custom-built, professional-grade blog management system using "Row PHP" (stand
 1.  **Clone the project**: `git clone <repository-url>`
 2.  **Install dependencies**: `composer dump-autoload`
 3.  **Configure Environment**: Edit `config/config.php` with your database credentials.
-4.  **Run Locally**: `php -S localhost:8000 -t public`
+4.  **Run Locally**: `php -S localhost:8000 router.php`
 5.  **Visit**: `http://localhost:8000`
 
 ## Testing & Usage
