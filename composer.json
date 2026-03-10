@@ -1,0 +1,17 @@
+{
+    "name": "boni/blog-php",
+    "description": "A professional blog web application using row PHP.",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antigravity"
+        }
+    ]
+}
