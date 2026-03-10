@@ -24,7 +24,9 @@ A custom-built, professional-grade blog management system using "Row PHP" (stand
 
 ### 2. User Authentication
 - **Register**: Navigate to `http://localhost:8000/users/register`. Fill in the form to create a new account.
-- **Login**: Navigate to `http://localhost:8000/users/login`. Use your registered credentials.
+- **Login**: Navigate to `http://localhost:8000/users/login`. Use your registered credentials or these defaults:
+    - **Admin**: `admin@example.com` / `password123`
+    - **User**: `user@example.com` / `password123`
 - **Check Session**: Once logged in, the Home page will greet you by name and show a "Logout" button.
 - **Logout**: Click "Logout" to end your session.
 
