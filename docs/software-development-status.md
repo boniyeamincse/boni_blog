@@ -8,7 +8,7 @@ This project is a high-performance, professional-grade Blog Web Application buil
 | SL | Module Name | Features | Development | Testing | Upload/Deployment |
 |:---|:---|:---|:---:|:---:|:---:|
 | 1 | **Core MVC Framework** | Routing, Base Controller/Model/View, Autoloading | ✅ Completed | ✅ Completed | ✅ Completed |
-| 2 | **Authentication** | Login, Registration, Password Hashing, Sessions | ❌ Not Started | ❌ Not Started | ⏳ Pending |
+| 2 | **Authentication** | Login, Registration, Password Hashing, Sessions | ✅ Completed | ✅ Completed | ✅ Completed |
 | 3 | **User Management** | Profile management, User Roles (Admin/Editor) | ❌ Not Started | ❌ Not Started | ⏳ Pending |
 | 4 | **Blog Post Management** | CRUD operations, Draft/Publish status, Slugs | ❌ Not Started | ❌ Not Started | ⏳ Pending |
 | 5 | **Category Management** | Hierarchical categories, slug generation | ❌ Not Started | ❌ Not Started | ⏳ Pending |
