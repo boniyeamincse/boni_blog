@@ -15,6 +15,19 @@ A custom-built, professional-grade blog management system using "Row PHP" (stand
 4.  **Run Locally**: `php -S localhost:8000 -t public`
 5.  **Visit**: `http://localhost:8000`
 
+## Testing & Usage
+
+### 1. Database Setup
+- Ensure MySQL is running.
+- Create a database named `blog_php`.
+- Import `database.sql`: `mysql -u root -p blog_php < database.sql`.
+
+### 2. User Authentication
+- **Register**: Navigate to `http://localhost:8000/users/register`. Fill in the form to create a new account.
+- **Login**: Navigate to `http://localhost:8000/users/login`. Use your registered credentials.
+- **Check Session**: Once logged in, the Home page will greet you by name and show a "Logout" button.
+- **Logout**: Click "Logout" to end your session.
+
 ## Documentation
 - [Project Blueprint](docs/blueprint.md)
 - [Module Documentation](docs/modules.md)
