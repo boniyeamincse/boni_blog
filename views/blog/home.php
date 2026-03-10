@@ -61,6 +61,7 @@
         <div class="nav">
             <?php if(isLoggedIn()) : ?>
                 <span>Welcome, <strong><?php echo $_SESSION['user_name']; ?></strong></span>
+                <a href="<?php echo URLROOT; ?>/docs/software-development-status.md">Dev Status</a>
                 <a href="<?php echo URLROOT; ?>/users/logout">Logout</a>
             <?php else : ?>
                 <a href="<?php echo URLROOT; ?>/users/login">Login</a>
